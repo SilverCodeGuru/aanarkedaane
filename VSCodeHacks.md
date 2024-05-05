@@ -1,5 +1,5 @@
 to toggle between terminal and text editor, use following keybindings
-[
+`[
     // Toggle between terminal and editor focus
     {
         "key":     "ctrl+`",
@@ -10,4 +10,5 @@ to toggle between terminal and text editor, use following keybindings
         "command": "workbench.action.focusActiveEditorGroup",
         "when":    "terminalFocus"
     }
-]
+]`
+
