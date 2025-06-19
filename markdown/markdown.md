@@ -36,7 +36,7 @@ First Line
 Second Line
 
 - link is created using square brackets followed by parenthesis. Visible text is inside square brackets and url is inside the parenthesis  
-[google](www.google.com)
+[google](http://www.google.com)
 
 - horizontal line to make things nicer - three minus signs?
 
