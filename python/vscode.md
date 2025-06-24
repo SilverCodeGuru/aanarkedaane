@@ -19,3 +19,6 @@
     "python.autoComplete.extraPaths": ["${workspaceFolder}"]
 }
 ```
+
+- if F12 is not working on a symbol, it may be because attribute was created lazily.
+![no definition found for assert_called_once_with](image.png)
