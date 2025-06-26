@@ -17,10 +17,23 @@ python -m pip install pip
 
 - you also uninstall and upgrade a package
 
-```bash
+``` bash
 python -m pip --upgrade pip
 
 python -m pip uninstall pip
 ```
 
 ## requirement specifiers
+
+- you can get latest versions for a library using following command -
+
+``` bash
+python -m pip freeze | grep -E 'pytest|pytest-cov|coverage'
+```
+
+- it is better to specify minimum version using >= for libraries and have fixed versions using == for applications for reproducibility.
+
+``` plaintext
+pytest==8.4.1
+pytest>=8.0.0
+```

@@ -13,8 +13,17 @@ make all
 - **.PHONY** declares phony targets. make is looking for files be default. if there was a file named format, make would have tried to check that file instead of running your commands
 
 ```bash
-.PHONY format
+.PHONY: format
 format:
     poetry run isort .
     poetry run black .
+```
+
+- makefiles like tabs and not spaces. vscode replaces tabs with spaces by default. edit it user level settings for makefile
+
+``` json
+"[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false
+    }
 ```
