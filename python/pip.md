@@ -13,7 +13,7 @@ python -m pip install pip
 1. local project?
 1. ditribution files
     1. source distribution (sdist)
-    2. wheel distribution (wheel)
+    1. wheel distribution (wheel)
 
 - you also uninstall and upgrade a package
 
@@ -21,6 +21,12 @@ python -m pip install pip
 python -m pip --upgrade pip
 
 python -m pip uninstall pip
+```
+
+- extras are specified in square brackets in pip install command. this allows one to get complete development environment without having to install each dependency manually.
+
+```bash
+pip install "fastapi[standard]"
 ```
 
 ## requirement specifiers
