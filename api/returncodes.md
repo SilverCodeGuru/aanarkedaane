@@ -6,7 +6,7 @@
 - **202** - accepted for deletion. Asynchronous processing.
 - **500** - Internal server error
 - **404** - Not Found
-- 401 - unauthorized
-- 400 - bad request - missing headers?
-- 403 - no access
-- 415 - unsuppoprted media type application/xml
+- **401** - unauthorized
+- **400** - bad request - missing headers?
+- **403** - no access
+- **415** - unsuppoprted media type application/xml
