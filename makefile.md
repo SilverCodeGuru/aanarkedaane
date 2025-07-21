@@ -27,3 +27,18 @@ format:
         "editor.detectIndentation": false
     }
 ```
+
+- prepend a command with @ to ensure that is not echoed/printed before execution
+
+- for makefile, each line is a command. If scripts spans many lines, each line must be separated by **line continuation character \\**
+
+```bash
+build:
+    if [ -z abc.def ]; then \
+        echo "yes"; \
+    elif [ another_condition ]; then \
+        echo "no"; \
+    else \
+        echo "oops"; \
+    fi
+```
