@@ -29,6 +29,13 @@ python -m pip uninstall pip
 pip install "fastapi[standard]"
 ```
 
+- you can also list all installed package and see details about one interested package
+
+```bash
+pip list
+pip show jsonata-python
+```
+
 ## requirement specifiers
 
 - you can get latest versions for a library using following command -
