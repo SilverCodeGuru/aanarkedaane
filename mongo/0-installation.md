@@ -17,9 +17,11 @@ volumes:
 
 1. install mongosh on windows by downloading and running it.
 1. install mongodb compass on windows by downloading and running it.
-1. install mongosh on wsl 
+1. install mongosh on wsl
 1. from terminal connect to locally running mongodb using following command -
 
 ```bash
 mongosh mongodb://localhost:27017
 ```
+
+1. install mongo tools to install mongorestore to populate trainig databases
