@@ -23,3 +23,5 @@
 - git glbal config setup
     - user.name
     - user.email
+- commit and push succeeded without any issues
+- its time to start building with AI
