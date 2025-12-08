@@ -13,7 +13,11 @@ Parrot OS is based on Debian dsitribution
 - more secure, faster, open source
 - less hardware drivers compared to windows
 - today's terminal is terminal emulator - physical screen monitor keyboard
-- shell is the UI
+- shell is the UI - there are many shells e.g. bash, sh, zsh
+- powershell also runs on linux - pwsh
+- $ at command prompt means you are logged in as user
+- su root will give you # instead of $
+-
 
 
 
@@ -34,7 +38,12 @@ Parrot OS is based on Debian dsitribution
 - rm
 - which - find where command binaries live
 - ctrl+c - cancel running command
-- ps
+- ps - proces status
+- man - manual
+- -h --help - help switch for every command
+- apropos - search in existing commands
+
+
 
 ## root folders
 
