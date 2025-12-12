@@ -4,6 +4,7 @@ cd (to home directory)
 cd - (to old directory where you were before last cd)
 
 aliases
+
 - ll
 - la
 
@@ -14,7 +15,7 @@ home also works
 
 ctrl+e to come to the end of the
 
-ctrl+u - cut before cursor
+ctrl+u - cut before cursor (useful when you copied pasted a wrong command)
 ctrl+k - cut after cursor
 ctrl+y - paste whatever was cut earlier
 
