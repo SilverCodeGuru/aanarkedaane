@@ -11,7 +11,7 @@
 - hjkl - to move
 - escape
 - dd - delete a line
-- set paste
+- set paste - to paste so formatting gets better
 
 - Install ranchcer - i am not going to
 - minikube install took too long
